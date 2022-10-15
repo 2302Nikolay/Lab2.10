@@ -10,6 +10,7 @@ def sum_positive(*values):
     if values:
         pos = 0
         temp = 0
+        print(values)
         for i in values:
                 if i > 0:
                     pos = i

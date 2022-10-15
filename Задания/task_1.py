@@ -5,6 +5,7 @@ import math
 
 
 def geo_mean(*values):
+    print(values)
     if values:
         temp = 1
         for i in range(0, len(values)):

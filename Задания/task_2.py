@@ -3,6 +3,7 @@
 
 
 def mean_gar(*values):
+    print(values)
     if values:
         temp = 0
         for i in range(0, len(values)):
