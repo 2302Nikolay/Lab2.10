@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*
 
 def print_prog_lang(**lang):
-    st = "-" * 40
+    st = "-" * 45
     print("Programming languages: \n")
     print(st)
     for field, lng in lang.items():
